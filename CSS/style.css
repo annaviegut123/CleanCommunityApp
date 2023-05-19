@@ -76,23 +76,23 @@ html {
 h1 {
     display: inline-block;
     font-size: 4vw;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 h2 {
     color: white;
     font-size: 3.5vw;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Nunito', sans-serif;
     text-decoration: underline;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.5vw;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
 }
 
@@ -102,12 +102,12 @@ a {
 }
 
 ul {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     list-style-type: none
 }
 
 li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
 }
 
@@ -115,7 +115,7 @@ li {
 
 .case-studies {
     display: block;
-    background-color: black;
+    background-color: #F4FFFF;
     overflow: auto;
 }
 
@@ -156,7 +156,7 @@ li {
 }
 
 .case-study-paragraph {
-    color: white;
+    color: black;
     margin-top: 1vh;
 }
 
@@ -205,7 +205,7 @@ li {
     vertical-align: middle;
     padding: 1.6vw;
     margin-top: 1.6vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     transition: background-color .3s ease;
 }
 
