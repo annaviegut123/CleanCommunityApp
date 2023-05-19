@@ -119,48 +119,48 @@ li {
     overflow: auto;
 }
 
-.virginia {
+.supplies {
     display: flex;
     padding-bottom: 3%;
 }
 
-.virginia-text {
+.supplies-text {
     width: 30%;
     padding-top: 6vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
 
-.addventure {
+.binfinder {
     display: flex;
     padding-bottom: 3%;
 }
 
-.addventure-text {
+.binfinder-text {
     width: 30%;
     padding-top: 4vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
 
-.twincities {
+.events {
     display: flex;
     padding-bottom: 2%;
 }
 
-.twincities-text {
+.events-text {
     width: 30%;
     padding-top: 3.5vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
 
-.case-study-paragraph {
+.feature-paragraph {
     color: black;
     margin-top: 1vh;
 }
 
-.case-study-image {
+.feature-image {
     display: inline-block;
     width: 30%;
     height: 30%;
@@ -173,12 +173,12 @@ li {
 	transition: .2s ease-in-out;
 }
 
-.case-study-image:hover {
+.feature-image:hover {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
 
-.case-study-image-two {
+.feature-image-two {
     display: inline-block;
     width: 25%;
     height: 25%;
@@ -191,7 +191,7 @@ li {
 	transition: .2s ease-in-out;
 }
 
-.case-study-image-two:hover {
+.feature-image-two:hover {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
