@@ -111,9 +111,9 @@ li {
     font-size: 1.2vw;
 }
 
-/* home page case studies section styles */
+/* app features section styles */
 
-.case-studies {
+.app-features {
     display: block;
     background-color: #F4FFFF;
     overflow: auto;
