@@ -196,23 +196,6 @@ li {
 	transform: scale(1.1);
 }
 
-.button {
-    font-size: 1.5vw;
-    color: white;
-    background-color: #956034;
-    border-radius: 6.25rem;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1.6vw;
-    margin-top: 1.6vw;
-    font-family: 'Nunito', sans-serif;
-    transition: background-color .3s ease;
-}
-
-.button:hover {
-    background-color: #644125;
-}
-
 /* footer section styles */
 
 footer {
