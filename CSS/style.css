@@ -47,16 +47,22 @@ html {
 
 /*  header hero section styles */
 
+.logo-tagline {
+
+}
+
 .cc-nav-logo {
 
 }
 
-.clean-community-nav-text {
-
+.cc-nav-tagline {
+    color: #263238;
+    margin-left: 5%;
+    font-size: 2vw;
 }
 
 .hero {
-    padding-top: 15%;
+    display: flex;
     flex-direction: row;
     background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
     background-size: 100% auto;
@@ -65,10 +71,20 @@ html {
 }
 
 .hero-text {
+    padding-top: 15%;
     margin-left: 10%;
-    margin-right: 50%;
+    margin-right: 10%;
     padding-bottom: 22%;
     color: black;
+}
+
+.hero-image {
+    padding-top: 10%;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    margin-right: 4vw;
+    margin-top: 1vh;
 }
 
 /* main text and element styles */
