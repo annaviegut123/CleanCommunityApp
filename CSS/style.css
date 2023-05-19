@@ -45,7 +45,7 @@ html {
     }
   }
 
-/*  home page header hero section styles */
+/*  header hero section styles */
 
 .cc-nav-logo {
 
@@ -237,25 +237,9 @@ footer {
     padding-top: 0.5vw;
 }
 
-.social-icon-footer {
-    width: 5vw;
-    height: 5vw;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-}
+/* for the embedded prototype */
 
-.social-icon-footer:hover {
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-/* for tehe embedded prototype */
-
-.addventure-interactive-prototype {
+.interactive-prototype {
     background-color: white;
 }
 
@@ -289,7 +273,7 @@ iframe {
     overflow: auto;
 }
 
-/* addventure prototype specific styles */
+/* prototype specific styles */
 
 iframe {
     border: none;
