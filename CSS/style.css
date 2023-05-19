@@ -207,7 +207,7 @@ footer {
     padding-right: 4vw;
 }
 
-.profile-image {
+.footer-logo {
     display: flex;
     align-items: center;
     width: 10vw;
@@ -219,7 +219,7 @@ footer {
 	transition: .2s ease-in-out;
 }
 
-.profile-image:hover {
+.footer-logo:hover {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
