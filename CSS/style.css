@@ -119,36 +119,36 @@ li {
     overflow: auto;
 }
 
-.supplies {
+.supplies-feature {
     display: flex;
     padding-bottom: 3%;
 }
 
-.supplies-text {
+.supplies-feature-text {
     width: 30%;
     padding-top: 6vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
 
-.binfinder {
+.binfinder-feature {
     display: flex;
     padding-bottom: 3%;
 }
 
-.binfinder-text {
+.binfinder-feature-text {
     width: 30%;
     padding-top: 4vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
 
-.events {
+.events-feature {
     display: flex;
     padding-bottom: 2%;
 }
 
-.events-text {
+.events-feature-text {
     width: 30%;
     padding-top: 3.5vw;
     margin-left: 9vw;
