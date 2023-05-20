@@ -57,7 +57,17 @@ html {
     margin-left: 13%;
     width: 9vw;
     height: 9vw;
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .2s ease-in-out;
+transition: .2s ease-in-out;
 }
+
+.cc-nav-logo:hover {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
 
 .cc-nav-tagline {
     color: #263238;
@@ -81,15 +91,28 @@ html {
     margin-left: 15%;
     margin-right: 5%;
     margin-top: 4%;
-    margin-bottom: 22%;
+    margin-bottom: 18%;
     color: black;
+}
+
+.hero-paragraph {
+    font-size: 1.5vw;
 }
 
 .hero-image {
     width: 20%;
     height: 20%;
     margin-right: 12%;
-    margin-top: -2%;
+    margin-top: -1%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.hero-image:hover {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
 }
 
 /* main text and element styles */
@@ -148,8 +171,8 @@ li {
 .supplies-feature-text {
     width: 30%;
     padding-top: 6vw;
-    margin-left: 9vw;
-    margin-right: 16vw;
+    margin-left: 6%;
+    margin-right: 15%;
 }
 
 .binfinder-feature {
@@ -160,8 +183,8 @@ li {
 .binfinder-feature-text {
     width: 30%;
     padding-top: 4vw;
-    margin-left: 9vw;
-    margin-right: 16vw;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .events-feature {
@@ -172,23 +195,24 @@ li {
 .events-feature-text {
     width: 30%;
     padding-top: 3.5vw;
-    margin-left: 9vw;
-    margin-right: 16vw;
+    margin-left: 6%;
+    margin-right: 15%;
 }
 
 .feature-paragraph {
     color: black;
-    margin-top: 1vh;
-    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 .feature-image {
     display: inline-block;
     width: 30%;
     height: 30%;
-    text-align: center;
-    margin-right: 4vw;
-    margin-top: 1vh;
+    margin-right: 5%;
+    margin-left: 15%;
+    margin-top: 5%;
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .2s ease-in-out;
@@ -206,7 +230,7 @@ li {
     height: 25%;
     padding-left: 3%;
     text-align: center;
-    margin-right: 4vw;
+    margin-right: 15%;
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .2s ease-in-out;
