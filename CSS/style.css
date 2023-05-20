@@ -346,7 +346,7 @@ footer {
 .gradient-rectangle {
     background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
     border-radius: 50px;
-    height: 50vh;
+    height: 60vh;
     width: 68vw;
     margin: auto;
     margin-top: 5%;
@@ -357,7 +357,7 @@ iframe {
     position: absolute;
     border-radius: 50px;
     border: none;
-    height: 90vh;
+    height: 94vh;
     width: 78vw;
     margin: auto;
     transform: scale(0.5);
