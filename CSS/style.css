@@ -251,23 +251,22 @@ span {
 .gradient-rectangle {
     background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
     border-radius: 50px;
-    height: 90vh;
+    height: 105vh;
     width: 68vw;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-.interactive-prototype {
-    background-color: white;
+    position: relative;
 }
 
 iframe {
+    position: absolute;
+    border-radius: 50px;
     border: none;
     width: 100%;
-    height: 110vh;
+    height: 105vh;
+    margin: auto;
     transform: scale(0.8);
-    margin-top: none !important;
 }
 
 /* footer section styles */
@@ -341,13 +340,28 @@ footer {
     overflow: auto;
 }
 
-/* prototype specific styles */
+
+/* embedded prototype styles */
+
+.gradient-rectangle {
+    background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
+    border-radius: 50px;
+    height: 50vh;
+    width: 68vw;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    position: relative;
+}
 
 iframe {
+    position: absolute;
+    border-radius: 50px;
     border: none;
-    width: 700;
-    height: 3500;
-    transform: scale(0.4);
+    height: 90vh;
+    width: 78vw;
+    margin: auto;
+    transform: scale(0.5);
 }
 
 }
