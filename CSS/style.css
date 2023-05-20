@@ -28,7 +28,7 @@ html {
   
   .preloader img {
     animation: spin 1.8s ease;
-    width: 150px;
+    width: 250px;
     transition: all;
     margin: 0 auto;
   }
@@ -48,22 +48,29 @@ html {
 /*  header hero section styles */
 
 .logo-tagline {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .cc-nav-logo {
-
+    margin-top: 2%;
+    margin-left: 13%;
+    width: 9vw;
+    height: 9vw;
 }
 
 .cc-nav-tagline {
     color: #263238;
-    margin-left: 5%;
+    margin-top: 5%;
     font-size: 2vw;
 }
 
-.hero {
+.text-image {
     display: flex;
     flex-direction: row;
+}
+
+.hero {
     background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
     background-size: 100% auto;
     background-attachment: fixed;
@@ -71,20 +78,18 @@ html {
 }
 
 .hero-text {
-    padding-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 22%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 22%;
     color: black;
 }
 
 .hero-image {
-    padding-top: 10%;
-    width: 25%;
-    height: 25%;
-    text-align: center;
-    margin-right: 4vw;
-    margin-top: 1vh;
+    width: 20%;
+    height: 20%;
+    margin-right: 12%;
+    margin-top: -2%;
 }
 
 /* main text and element styles */
@@ -174,6 +179,7 @@ li {
 .feature-paragraph {
     color: black;
     margin-top: 1vh;
+    margin-left: 15%;
 }
 
 .feature-image {
@@ -219,7 +225,7 @@ footer {
     display: flex;
     align-items: center;
     height: 20vw;
-    padding-left: 9vw;
+    padding-left: 15%;
     padding-right: 4vw;
 }
 
