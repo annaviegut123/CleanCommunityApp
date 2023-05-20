@@ -140,7 +140,7 @@ p {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -150,6 +150,11 @@ ul {
 }
 
 li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2vw;
+}
+
+span {
     font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
 }
