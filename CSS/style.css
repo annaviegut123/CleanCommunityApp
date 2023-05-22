@@ -334,7 +334,7 @@ footer {
 /*  home page header hero section styles */
 
 .hero {
-    padding-top: 18%;
+    padding-top: 2%;
     flex-direction: row;
     background: linear-gradient(180deg, #74D374 0%, #67C997 53.65%, #5DC2B2 77.61%, #51B8D2 100%);
     background-size: 100% auto;
@@ -342,12 +342,28 @@ footer {
 }
 
 .hero-text {
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 6%;
-    padding-bottom: 18%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    padding-bottom: 16%;
     overflow: auto;
 }
 
+.cc-nav-logo {
+    margin-top: 2%;
+    margin-left: 13%;
+    width: 9vw;
+    height: 9vw;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+footer {
+    height: 30vw;
+}
 
 /* embedded prototype styles */
 
@@ -359,18 +375,17 @@ footer {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 8%;
+    position: relative;
 }
 
 iframe {
     position: absolute;
     border-radius: 50px;
     border: none;
-    height: 94vh;
-    width: 78vw;
+    height: 110%;
+    width: 100%;
     margin: auto;
     transform: scale(0.5);
 }
 
 }
-
-
