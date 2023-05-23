@@ -365,6 +365,11 @@ footer {
     height: 30vw;
 }
 
+.footer-text-element {
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
+}
+
 /* embedded prototype styles */
 
 .gradient-rectangle {
@@ -382,9 +387,10 @@ iframe {
     position: absolute;
     border-radius: 50px;
     border: none;
-    height: 110%;
+    height: 156%;
     width: 100%;
     margin: auto;
+    margin-top: -39%;
     transform: scale(0.5);
 }
 
