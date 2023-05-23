@@ -361,15 +361,6 @@ footer {
     transition: .2s ease-in-out;
 }
 
-footer {
-    height: 30vw;
-}
-
-.footer-text-element {
-    margin-bottom: 0.1vw;
-    margin-top: 0.1vw;
-}
-
 /* embedded prototype styles */
 
 .gradient-rectangle {
@@ -392,6 +383,17 @@ iframe {
     margin: auto;
     margin-top: -39%;
     transform: scale(0.5);
+}
+
+/* footer section styles */
+
+footer {
+    height: 30vw;
+}
+
+.footer-text-element {
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
 }
 
 }
